@@ -97,6 +97,9 @@ textarea {
   margin: auto;
 }
 
+figure {
+  margin: 0;
+}
 
 /********* Mobile  styles  **********/
 
@@ -213,6 +216,7 @@ footer .content {
   display: flex;
   flex-flow: column;
   align-items: center;
+  width: 100%;
 }
 
 footer figure {
@@ -364,20 +368,22 @@ footer li {
 
   /*** contact  section styles  ***/
 
+  
   footer .contact {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    
   }
   footer figure {
     display: flex;
-    width: 45%;
+    border: 12px solid #ffffff;    width: 45%;
   }
   footer figure img {
     width: 100%;
   }
-
-  footer content {
+  
+  footer .content {
     width: 45%;
   }
 
