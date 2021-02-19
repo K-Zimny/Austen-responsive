@@ -389,8 +389,23 @@ footer li {
 
   /* nav styles */
 
+  header .site-title {
+    width: 40%;
+  }
   header nav {
     display: flex;
+    width: 60%;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  nav li {
+    list-style: none;
   }
 
   header .menu-icon {
