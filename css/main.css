@@ -117,6 +117,28 @@ header .content-wrapper {
   height: 500px;
 }
 
+header .header-title-nav {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  align-items: center;
+}
+
+header .site-title {
+  width: 90%;
+}
+
+header .menu-icon {
+  width: 10%;
+  font-size: 2.5em;
+}
+
+/*  nav styles  */
+
+header nav {
+  display: none;
+}
+
 /* mobile nav styles  */
 
 .overlay {
@@ -297,6 +319,7 @@ footer li {
 
   /******* header styles  ********/
 
+
   /******** main styles  ********/
 
   /*** about section styles  ***/
@@ -363,6 +386,16 @@ footer li {
   /********* Text styles  **********/
 
   /******* header styles  ********/
+
+  /* nav styles */
+
+  header nav {
+    display: flex;
+  }
+
+  header .menu-icon {
+    display: none;
+  }
 
   /******** main styles  ********/
 
