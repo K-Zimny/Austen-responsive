@@ -86,11 +86,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* Testing styles  */
-.content-wrapper {
-  border: 1px black solid;
-}
-
 
 /********* Global styles  **********/
 
@@ -108,6 +103,10 @@ textarea {
 /********* Text styles  **********/
 
 /******* header styles  ********/
+
+header{
+  background-color: #ededed; 
+}
 
 header .content-wrapper {
   background: url(../img/full-background.png);
@@ -189,6 +188,10 @@ header nav {
 
 /*** work section styles  ***/
 
+.work{
+  background-color:#f9ceb7;
+}
+
 .work .content-wrapper{
 }
 
@@ -201,6 +204,10 @@ header nav {
 /******** footer styles  ********/
 
 /*** contact section styles  ***/
+
+footer{
+  background-color:#ededed; 
+}
 
 footer .content {
   display: flex;
@@ -386,6 +393,11 @@ footer li {
   /********* Text styles  **********/
 
   /******* header styles  ********/
+
+  header .content-wrapper {
+
+    height: 650px;
+  }
 
   /* nav styles */
 
